@@ -1,0 +1,28 @@
+@objects
+    header   #MainCon
+    logo     css     .logo_gg
+    header-right-text     css     .RiskLink
+    #facebook-login-button
+    #username-input
+    #password-input
+    #rememberme-input
+    #password-reset-link
+    #signin-button
+    #register-button
+    #content-image
+    #footer-*
+
+= Header =
+    header:
+      width 1200px
+      height 91px
+
+    logo:
+      width 165px
+      height 51px
+      inside header 20px top bottom
+
+    header-right-text:
+      height 21px
+      inside header 45px top
+      inside header 6px right
