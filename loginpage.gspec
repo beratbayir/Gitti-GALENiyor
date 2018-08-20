@@ -2,7 +2,10 @@
     header   #MainCon
     logo     css     .logo_gg
     header-right-text     css     .RiskLink
-    #facebook-login-button
+    container     css     #gg-login-content-container
+    login-box     css     #gg-login-box
+    gg-login-problem     css     .gg-login-problem
+    facebook-login-button     #facebookLine
     #username-input
     #password-input
     #rememberme-input
@@ -12,17 +15,44 @@
     #content-image
     #footer-*
 
-= Header =
+= Header Section =
     header:
       width 1200px
       height 91px
 
+    = Page Left =
     logo:
       width 165px
       height 51px
       inside header 20px top bottom
 
+    = Page Right =
     header-right-text:
       height 21px
       inside header 45px top
       inside header 6px right
+      text is "SıfırRisk Sistemi Nedir?"
+
+= Container Section =
+    container:
+          width 1280px
+          height 542px
+
+
+    = Login Section =
+        login-box:
+          width 430px
+          height 502px
+          inside container 20px top bottom
+
+        gg-login-problem:
+          width 30px
+          height 29px
+          inside login-box 21px top
+          inside login-box 31px right
+
+        facebook-login-button:
+          width 408px
+          height 58px
+          inside login-box 11px left right
+          text is "Facebook ile giriş yap"
