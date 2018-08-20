@@ -1,0 +1,117 @@
+{
+  "testId" : "1-loginpage.gspec",
+  "name" : "loginpage.gspec",
+  "report" : {
+    "nodes" : [ {
+      "name" : "Simple check",
+      "status" : "info",
+      "nodes" : [ {
+        "name" : "check  loginpage.gspec --url https://www.gittigidiyor.com/uye-girisi?url=%2F --size 1280x1024 --htmlreport reports",
+        "status" : "info",
+        "nodes" : [ {
+          "name" : "Check layout: loginpage.gspec included tags: ",
+          "status" : "info",
+          "time" : 1534777775865,
+          "sections" : [ {
+            "name" : "Header",
+            "place" : {
+              "filePath" : "loginpage.gspec",
+              "lineNumber" : 15
+            },
+            "objects" : [ {
+              "name" : "header",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "loginpage.gspec",
+                  "lineNumber" : 17
+                },
+                "name" : "width 1200px",
+                "highlight" : [ "header" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "loginpage.gspec",
+                  "lineNumber" : 18
+                },
+                "name" : "height 91px",
+                "highlight" : [ "header" ]
+              } ]
+            }, {
+              "name" : "logo",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "loginpage.gspec",
+                  "lineNumber" : 21
+                },
+                "name" : "width 165px",
+                "highlight" : [ "logo" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "loginpage.gspec",
+                  "lineNumber" : 22
+                },
+                "name" : "height 51px",
+                "highlight" : [ "logo" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "loginpage.gspec",
+                  "lineNumber" : 23
+                },
+                "name" : "inside header 20px top bottom",
+                "highlight" : [ "logo", "header" ]
+              } ]
+            }, {
+              "name" : "header-right-text",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "loginpage.gspec",
+                  "lineNumber" : 26
+                },
+                "name" : "height 21px",
+                "highlight" : [ "header-right-text" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "loginpage.gspec",
+                  "lineNumber" : 27
+                },
+                "name" : "inside header 45px top",
+                "highlight" : [ "header-right-text", "header" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "loginpage.gspec",
+                  "lineNumber" : 28
+                },
+                "name" : "inside header 6px right",
+                "highlight" : [ "header-right-text", "header" ]
+              } ]
+            } ]
+          } ],
+          "objects" : {
+            "header-right-text" : {
+              "area" : [ 1080, 45, 154, 21 ]
+            },
+            "header" : {
+              "area" : [ 40, 0, 1200, 91 ]
+            },
+            "logo" : {
+              "area" : [ 40, 20, 165, 51 ]
+            }
+          },
+          "screenshot" : "layout-1-screenshot.png",
+          "type" : "layout"
+        } ],
+        "time" : 1534777773460,
+        "type" : "node"
+      } ],
+      "time" : 1534777769675,
+      "type" : "node"
+    } ]
+  }
+}
