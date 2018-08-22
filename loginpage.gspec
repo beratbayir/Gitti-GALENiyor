@@ -92,6 +92,8 @@
               text is "Ücretsiz Kayıt Ol"
               inside login-box 21px left right
 
+
+= Footer Section =
           footer:
               width 1280px
               height 282px
