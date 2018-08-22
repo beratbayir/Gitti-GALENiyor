@@ -11,7 +11,7 @@
         "nodes" : [ {
           "name" : "Check layout: loginpage.gspec included tags: ",
           "status" : "info",
-          "time" : 1534949972028,
+          "time" : 1534950442439,
           "sections" : [ {
             "name" : "Header Section",
             "place" : {
@@ -482,10 +482,10 @@
           "screenshot" : "layout-1-screenshot.png",
           "type" : "layout"
         } ],
-        "time" : 1534949968645,
+        "time" : 1534950438998,
         "type" : "node"
       } ],
-      "time" : 1534949964425,
+      "time" : 1534950433746,
       "type" : "node"
     } ]
   }
