@@ -6,14 +6,14 @@
     login-box     css     #gg-login-box
     gg-login-problem     css     .gg-login-problem
     facebook-login-button     #facebookLine
-    #username-input
-    #password-input
-    #rememberme-input
-    #password-reset-link
-    #signin-button
-    #register-button
-    #content-image
-    #footer-*
+    form-login     #formlogin
+    username-input    css     .mt20
+    password-input     #gg-login-pwdHold
+    rememberme-box     css     .remember
+    password-reset-link     #L-ForgotPassword
+    signin-button     #gg-login-enter
+    register-button     #gg-login-register
+    footer      css     .footer-responsive
 
 = Header Section =
     header:
@@ -40,19 +40,58 @@
 
 
     = Login Section =
-        login-box:
-          width 430px
-          height 502px
-          inside container 20px top bottom
+          login-box:
+            width 430px
+            height 502px
+            inside container 20px top bottom
 
-        gg-login-problem:
-          width 30px
-          height 29px
-          inside login-box 21px top
-          inside login-box 31px right
+          gg-login-problem:
+            width 30px
+            height 29px
+            inside login-box 21px top
+            inside login-box 31px right
 
-        facebook-login-button:
-          width 408px
-          height 58px
-          inside login-box 11px left right
-          text is "Facebook ile giriş yap"
+          facebook-login-button:
+            width 408px
+            height 58px
+            inside login-box 11px left right
+            text is "Facebook ile giriş yap"
+
+          form-login:
+              width 408px
+              height 314px
+
+          username-input:
+              width 408px
+              height 56px
+              inside login-box 11px left right
+
+          password-input:
+              width 388px
+              height 35px
+              text is ""
+
+          rememberme-box:
+              width 179px
+              height 14px
+
+          password-reset-link:
+              width 84px
+              height 14px
+              text is "Şifremi unuttum"
+
+
+          signin-button:
+              width 388px
+              height 40px
+              inside login-box 21px left right
+
+          register-button:
+              width 388px
+              height 37px
+              text is "Ücretsiz Kayıt Ol"
+              inside login-box 21px left right
+
+          footer:
+              width 1280px
+              height 282px
