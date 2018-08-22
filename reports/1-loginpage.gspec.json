@@ -11,7 +11,7 @@
         "nodes" : [ {
           "name" : "Check layout: loginpage.gspec included tags: ",
           "status" : "info",
-          "time" : 1534780626851,
+          "time" : 1534949972028,
           "sections" : [ {
             "name" : "Header Section",
             "place" : {
@@ -229,6 +229,206 @@
                   "name" : "text is \"Facebook ile giriş yap\"",
                   "highlight" : [ "facebook-login-button" ]
                 } ]
+              }, {
+                "name" : "form-login",
+                "specs" : [ {
+                  "status" : "info",
+                  "place" : {
+                    "filePath" : "loginpage.gspec",
+                    "lineNumber" : 61
+                  },
+                  "name" : "width 408px",
+                  "highlight" : [ "form-login" ]
+                }, {
+                  "status" : "info",
+                  "place" : {
+                    "filePath" : "loginpage.gspec",
+                    "lineNumber" : 62
+                  },
+                  "name" : "height 314px",
+                  "highlight" : [ "form-login" ]
+                } ]
+              }, {
+                "name" : "username-input",
+                "specs" : [ {
+                  "status" : "info",
+                  "place" : {
+                    "filePath" : "loginpage.gspec",
+                    "lineNumber" : 65
+                  },
+                  "name" : "width 408px",
+                  "highlight" : [ "username-input" ]
+                }, {
+                  "status" : "info",
+                  "place" : {
+                    "filePath" : "loginpage.gspec",
+                    "lineNumber" : 66
+                  },
+                  "name" : "height 56px",
+                  "highlight" : [ "username-input" ]
+                }, {
+                  "status" : "info",
+                  "place" : {
+                    "filePath" : "loginpage.gspec",
+                    "lineNumber" : 67
+                  },
+                  "name" : "inside login-box 11px left right",
+                  "highlight" : [ "username-input", "login-box" ]
+                } ]
+              }, {
+                "name" : "password-input",
+                "specs" : [ {
+                  "status" : "info",
+                  "place" : {
+                    "filePath" : "loginpage.gspec",
+                    "lineNumber" : 70
+                  },
+                  "name" : "width 388px",
+                  "highlight" : [ "password-input" ]
+                }, {
+                  "status" : "info",
+                  "place" : {
+                    "filePath" : "loginpage.gspec",
+                    "lineNumber" : 71
+                  },
+                  "name" : "height 35px",
+                  "highlight" : [ "password-input" ]
+                }, {
+                  "status" : "info",
+                  "place" : {
+                    "filePath" : "loginpage.gspec",
+                    "lineNumber" : 72
+                  },
+                  "name" : "text is \"\"",
+                  "highlight" : [ "password-input" ]
+                } ]
+              }, {
+                "name" : "rememberme-box",
+                "specs" : [ {
+                  "status" : "info",
+                  "place" : {
+                    "filePath" : "loginpage.gspec",
+                    "lineNumber" : 75
+                  },
+                  "name" : "width 179px",
+                  "highlight" : [ "rememberme-box" ]
+                }, {
+                  "status" : "info",
+                  "place" : {
+                    "filePath" : "loginpage.gspec",
+                    "lineNumber" : 76
+                  },
+                  "name" : "height 14px",
+                  "highlight" : [ "rememberme-box" ]
+                } ]
+              }, {
+                "name" : "password-reset-link",
+                "specs" : [ {
+                  "status" : "info",
+                  "place" : {
+                    "filePath" : "loginpage.gspec",
+                    "lineNumber" : 79
+                  },
+                  "name" : "width 84px",
+                  "highlight" : [ "password-reset-link" ]
+                }, {
+                  "status" : "info",
+                  "place" : {
+                    "filePath" : "loginpage.gspec",
+                    "lineNumber" : 80
+                  },
+                  "name" : "height 14px",
+                  "highlight" : [ "password-reset-link" ]
+                }, {
+                  "status" : "info",
+                  "place" : {
+                    "filePath" : "loginpage.gspec",
+                    "lineNumber" : 81
+                  },
+                  "name" : "text is \"Şifremi unuttum\"",
+                  "highlight" : [ "password-reset-link" ]
+                } ]
+              }, {
+                "name" : "signin-button",
+                "specs" : [ {
+                  "status" : "info",
+                  "place" : {
+                    "filePath" : "loginpage.gspec",
+                    "lineNumber" : 85
+                  },
+                  "name" : "width 388px",
+                  "highlight" : [ "signin-button" ]
+                }, {
+                  "status" : "info",
+                  "place" : {
+                    "filePath" : "loginpage.gspec",
+                    "lineNumber" : 86
+                  },
+                  "name" : "height 40px",
+                  "highlight" : [ "signin-button" ]
+                }, {
+                  "status" : "info",
+                  "place" : {
+                    "filePath" : "loginpage.gspec",
+                    "lineNumber" : 87
+                  },
+                  "name" : "inside login-box 21px left right",
+                  "highlight" : [ "signin-button", "login-box" ]
+                } ]
+              }, {
+                "name" : "register-button",
+                "specs" : [ {
+                  "status" : "info",
+                  "place" : {
+                    "filePath" : "loginpage.gspec",
+                    "lineNumber" : 90
+                  },
+                  "name" : "width 388px",
+                  "highlight" : [ "register-button" ]
+                }, {
+                  "status" : "info",
+                  "place" : {
+                    "filePath" : "loginpage.gspec",
+                    "lineNumber" : 91
+                  },
+                  "name" : "height 37px",
+                  "highlight" : [ "register-button" ]
+                }, {
+                  "status" : "info",
+                  "place" : {
+                    "filePath" : "loginpage.gspec",
+                    "lineNumber" : 92
+                  },
+                  "name" : "text is \"Ücretsiz Kayıt Ol\"",
+                  "highlight" : [ "register-button" ]
+                }, {
+                  "status" : "info",
+                  "place" : {
+                    "filePath" : "loginpage.gspec",
+                    "lineNumber" : 93
+                  },
+                  "name" : "inside login-box 21px left right",
+                  "highlight" : [ "register-button", "login-box" ]
+                } ]
+              }, {
+                "name" : "footer",
+                "specs" : [ {
+                  "status" : "info",
+                  "place" : {
+                    "filePath" : "loginpage.gspec",
+                    "lineNumber" : 96
+                  },
+                  "name" : "width 1280px",
+                  "highlight" : [ "footer" ]
+                }, {
+                  "status" : "info",
+                  "place" : {
+                    "filePath" : "loginpage.gspec",
+                    "lineNumber" : 97
+                  },
+                  "name" : "height 282px",
+                  "highlight" : [ "footer" ]
+                } ]
               } ]
             } ]
           } ],
@@ -242,8 +442,26 @@
             "gg-login-problem" : {
               "area" : [ 1169, 133, 30, 29 ]
             },
+            "signin-button" : {
+              "area" : [ 821, 475, 388, 40 ]
+            },
+            "footer" : {
+              "area" : [ 0, 634, 1280, 282 ]
+            },
+            "form-login" : {
+              "area" : [ 811, 279, 408, 314 ]
+            },
+            "username-input" : {
+              "area" : [ 811, 299, 408, 56 ]
+            },
+            "rememberme-box" : {
+              "area" : [ 836, 446, 179, 14 ]
+            },
             "facebook-login-button" : {
               "area" : [ 811, 200, 408, 58 ]
+            },
+            "register-button" : {
+              "area" : [ 821, 556, 388, 37 ]
             },
             "login-box" : {
               "area" : [ 800, 112, 430, 502 ]
@@ -253,15 +471,21 @@
             },
             "logo" : {
               "area" : [ 40, 20, 165, 51 ]
+            },
+            "password-input" : {
+              "area" : [ 821, 396, 388, 35 ]
+            },
+            "password-reset-link" : {
+              "area" : [ 1124, 446, 84, 14 ]
             }
           },
           "screenshot" : "layout-1-screenshot.png",
           "type" : "layout"
         } ],
-        "time" : 1534780623932,
+        "time" : 1534949968645,
         "type" : "node"
       } ],
-      "time" : 1534780620211,
+      "time" : 1534949964425,
       "type" : "node"
     } ]
   }
