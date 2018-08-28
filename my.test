@@ -1,0 +1,10 @@
+
+
+
+@@ parameterized
+    | deviceName | tags      | size       |
+    | mobile     | mobile    | 714x826    |
+    | desktop    | desktop   | 1400x1024  |
+Home page on ${deviceName}
+    https://www.gittigidiyor.com/uye-girisi?url=%2F   ${size}
+            check loginpage.gspec --include "${tags}"
