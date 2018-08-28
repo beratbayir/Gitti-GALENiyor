@@ -1,5 +1,5 @@
 @objects
-    header   #MainCon
+    header   #topContainer
     logo     css     .logo_gg
     header-right-text     css     .RiskLink
     container     css     #gg-login-content-container
@@ -14,86 +14,200 @@
     signin-button     #gg-login-enter
     register-button     #gg-login-register
     footer      css     .footer-responsive
+    logo2    css     .GGLogo
+
+
 
 = Header Section =
-    header:
-      width 1200px
-      height 91px
+      @on desktop
+          header:
 
-    = Page Left =
-    logo:
-      width 165px
-      height 51px
-      inside header 20px top bottom
+              width 1400px
+              height 92px
+      @on mobile
+          header:
+              width 714px
+              height 63px
 
-    = Page Right =
-    header-right-text:
-      height 21px
-      inside header 45px top
-      inside header 6px right
-      text is "SıfırRisk Sistemi Nedir?"
+
+      @on desktop
+            logo:
+                width 165px
+                height 51px
+
+      @on mobile
+            logo2:
+                width  142px
+                height 45px
+
+
+      @on desktop
+            header-right-text:
+
+                    height 21px
+                    inside header 45px top
+                    inside header 106px right
+                    text is "SıfırRisk Sistemi Nedir?"
+
+
+
 
 = Container Section =
-    container:
-          width 1280px
-          height 542px
+       @on desktop
+            container:
 
 
-    = Login Section =
-          login-box:
-            width 430px
-            height 502px
-            inside container 20px top bottom
+                width 1400px
+                height 542px
 
-          gg-login-problem:
-            width 30px
-            height 29px
-            inside login-box 21px top
-            inside login-box 31px right
+       @on mobile
+            container:
 
-          facebook-login-button:
-            width 408px
-            height 58px
-            inside login-box 11px left right
-            text is "Facebook ile giriş yap"
-
-          form-login:
-              width 408px
-              height 314px
-
-          username-input:
-              width 408px
-              height 56px
-              inside login-box 11px left right
-
-          password-input:
-              width 388px
-              height 35px
-              text is ""
-
-          rememberme-box:
-              width 179px
-              height 14px
-
-          password-reset-link:
-              width 84px
-              height 14px
-              text is "Şifremi unuttum"
+                width 714px
+                height 523px
 
 
-          signin-button:
-              width 388px
-              height 40px
-              inside login-box 21px left right
+       @on desktop
+            login-box:
+                width 430px
+                height 502px
+                inside container 20px top
 
-          register-button:
-              width 388px
-              height 37px
-              text is "Ücretsiz Kayıt Ol"
-              inside login-box 21px left right
+
+
+
+            gg-login-problem:
+
+                width 30px
+                height 29px
+                inside login-box 21px top
+                inside login-box 31px right
+
+            facebook-login-button:
+
+               width 408px
+               height 58px
+               inside login-box 11px left right
+               text is "Facebook ile giriş yap"
+
+            form-login:
+
+                width 408px
+                height 314px
+
+            username-input:
+
+                width 408px
+                height 56px
+                inside login-box 11px left right
+
+            password-input:
+
+                width 388px
+                height 35px
+                text is ""
+
+            rememberme-box:
+
+                width 179px
+                height 14px
+
+            password-reset-link:
+
+                width 84px
+                height 14px
+                text is "Şifremi unuttum"
+
+
+            signin-button:
+
+                width 388px
+                height 40px
+                inside login-box 21px left right
+
+            register-button:
+
+                width 388px
+                height 37px
+                text is "Ücretsiz Kayıt Ol"
+                inside login-box 21px left right
+
+
+
+       @on mobile
+                     login-box:
+                         width 480px
+                         height 524px
+
+
+
+
+
+                     gg-login-problem:
+
+                         width 30px
+                         height 29px
+                         inside login-box 21px top
+                         inside login-box 30px right
+
+                     facebook-login-button:
+
+                        width 460px
+                        height 58px
+                        inside login-box 10px left right
+                        text is "Facebook ile giriş yap"
+
+                     form-login:
+
+                         width 460px
+                         height 337px
+
+                     username-input:
+
+                         width 460px
+                         height 56px
+                         inside login-box 10px left right
+
+                     password-input:
+
+                         width 440px
+                         height 35px
+                         text is ""
+
+                     rememberme-box:
+
+                         width 205px
+                         height 14px
+
+                     password-reset-link:
+
+                         width 84px
+                         height 14px
+                         text is "Şifremi unuttum"
+
+
+                     signin-button:
+
+                         width 440px
+                         height 42px
+                         inside login-box 20px left right
+
+                     register-button:
+
+                         width 440px
+                         height 37px
+                         text is "Ücretsiz Kayıt Ol"
+                         inside login-box 20px left right
+
 
 
 = Footer Section =
-          footer:
-              width 1280px
-              height 282px
+    @on desktop
+        footer:
+            width  1400px
+            height  252px
+
+    @on mobile
+        footer:
+            width 714px
+            height 216px
